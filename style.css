@@ -1,0 +1,435 @@
+/* Style for the rental house container */
+#rentalHousesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  /* Style for each rental house */
+  .rentalHouse {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .rentalHouse img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .rentalHouse h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rentalHouse p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rentalHouse ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rentalHouse li {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+  
+
+.head{
+  text-align: center;
+  text-decoration: double;
+  color: aqua;
+}
+
+/* title  */
+h1 {
+  
+  text-align: center;
+  color: white;
+}
+
+hr {
+  color: black;
+  width: 100px;
+  height: 5px;
+  background-color:black;
+  border: none;
+  position: relative;
+  right: 1%;
+  bottom: 20px;
+}
+/* houses list */
+.House {
+  position: fixed;
+  float: left;
+  height: auto;
+  width: 20%;
+  margin-left: 2%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.House h2 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.House>nav>ul>li {
+  list-style: none;
+  padding: 7px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: gray;
+  transition: all 0.3s ease;
+  color: white;
+}
+/* main container  */
+.display-area {
+  position: relative;
+  left: 25%;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.display-area h2 {
+  font-family: 'cursive', sans-serif;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+
+#display img {
+  height: 225px;
+  width: 225px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price {
+  /*margin-left: 60%;*/
+  background-color: gray;
+  width: 8%;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+/* rating  */
+.rating {
+  margin-left: 70%;
+  position: relative;
+  bottom: 50px;
+  color: #ff9800;
+}
+
+.orderBtn {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#description {
+  margin-left: 25%;
+}
+
+/* .reviews  */
+.reviews {
+  position: relative;
+  left: 25%;
+  width: 40%;
+}
+
+.reviews h3 {
+  font-size: medium;
+}
+
+.reviews ul li {
+  list-style: none;
+  background-color: gray;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  width: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+/* form  */
+form {
+  width: 50%;
+  margin: 0 auto 50px auto;
+  margin-bottom: 30px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.btn:hover{
+  color: #222;
+  background-color: aqua;
+  
+}
+/*star rating */
+.star {
+  font-size: 3rem;
+  color: #ff9800;
+  background-color: unset;
+  border: none;
+}
+.star:hover {
+  cursor: pointer;
+}
+.star_rating{
+ position: relative;
+ left: 25%;
+ 
+}
+.starheading{
+ font-weight: bolder;
+ font-size: medium;
+}
+#deletebtn{
+  margin-left: 10px;
+}
+
+.small{
+  color: palevioletred;
+}
+
+.foot{
+  color: #ff9800;
+  text-align: center;
+}
+
+
+.head{
+  text-align: center;
+  text-decoration: double;
+  color: aqua;
+}
+
+/* title  */
+h1 {
+  
+  text-align: center;
+  color: white;
+}
+
+hr {
+  color: black;
+  width: 100px;
+  height: 5px;
+  background-color:black;
+  border: none;
+  position: relative;
+  right: 1%;
+  bottom: 20px;
+}
+/* houses list */
+.House {
+  position: fixed;
+  float: left;
+  height: auto;
+  width: 20%;
+  margin-left: 2%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.House h2 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.House>nav>ul>li {
+  list-style: none;
+  padding: 7px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: gray;
+  transition: all 0.3s ease;
+  color: white;
+}
+/* main container  */
+.display-area {
+  position: relative;
+  left: 25%;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.display-area h2 {
+  font-family: 'cursive', sans-serif;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+
+#display img {
+  height: 225px;
+  width: 225px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price {
+  /*margin-left: 60%;*/
+  background-color: gray;
+  width: 8%;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+/* rating  */
+.rating {
+  margin-left: 70%;
+  position: relative;
+  bottom: 50px;
+  color: #ff9800;
+}
+
+.orderBtn {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#description {
+  margin-left: 25%;
+}
+
+/* .reviews  */
+.reviews {
+  position: relative;
+  left: 25%;
+  width: 40%;
+}
+
+.reviews h3 {
+  font-size: medium;
+}
+
+.reviews ul li {
+  list-style: none;
+  background-color: gray;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  width: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+/* form  */
+form {
+  width: 50%;
+  margin: 0 auto 50px auto;
+  margin-bottom: 30px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.btn:hover{
+  color: #222;
+  background-color: aqua;
+  
+}
+/*star rating */
+.star {
+  font-size: 3rem;
+  color: #ff9800;
+  background-color: unset;
+  border: none;
+}
+.star:hover {
+  cursor: pointer;
+}
+.star_rating{
+ position: relative;
+ left: 25%;
+ 
+}
+.starheading{
+ font-weight: bolder;
+ font-size: medium;
+}
+#deletebtn{
+  margin-left: 10px;
+}
+
+.small{
+  color: palevioletred;
+}
+
+.foot{
+  color: #ff9800;
+  text-align: center;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rental Houses</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="House">
+    <h2>Rental Houses</h2>
+
+    <div id="rentalHousesContainer">
+      <div class="">
+        <ul class="RentalHouse"></ul>
+      </div>
+
+      
+    </div>
+  </header>
+
+
+    <div class="container">
+      <section class="display-area">
+          <div id="display">
+              <h2 id="name">House Type</h2>
+              <p class="rating"><i class="fa-solid fa-star"></i><span id="rating"></span></p>
+              <img id="image" src = "./assets/images/image-placeholder.jpg" alt="image goes here">
+              <div class="buttons">
+                  <p class="price">Ksh. <span id="price">price</span></p>
+              <button class="orderBtn" id="orderBtn">Book Space</button>
+  
+              </div>
+              
+              <p><em id="description">Their Description</em></p>
+          </div>
+      
+              <!--star rating-->
+      
+             
+          <div class="star_rating">
+              <p id="starheading">5 Star Rating</p>
+              <p>Rate our Houses & Services </p>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <p class="currentstarrating"> 0 of 5</p>
+           </div>
+      
+              <!-- reviews  -->
+              <div class="reviews">
+                  <h3>Customer reviews</h3>
+                  <P>The houses are awesome</P>
+                  <ul id="reviewList">
+                  </ul>
+              </div>
+      
+              <!-- Reviews form  -->
+              <form id="reviewForm">
+                  <label for="form">Add review:</label>
+                  <textarea id="review"></textarea>
+                  <small class="small"> your review will be highly appreciated! </small> <br>
+                  <button type="submit" class="btn">Submit</button>
+              </form>
+              
+          </section>
+  
+          <footer class="foot">
+              The best housing company that is highly recommended by most tenants
+          </footer>
+  
+  
+
+    
+    <script src="index.js"></script>
+
+  </body>
+</html>

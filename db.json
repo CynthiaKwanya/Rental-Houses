@@ -1,0 +1,91 @@
+{
+    "RentalHouses": [
+      {
+        "id": 1,
+        "name": "BedSitter",
+        "rating": 4,
+        "image": "https://st.hzcdn.com/simgs/pictures/living-rooms/bedsitter-denza-interiors-0719835148-img~ef019e5d09d382cf_9-3107-1-ad05635.jpg",
+        "price": 6500,
+        "description":" A simple vanished bedsitter ",
+        "review": [
+          " It is simple and located in a good place "
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Single Room",
+        "rating": 5,
+        "image": " https://www.google.com/url?sa=i&url=https%3A%2F%2Fyen.com.gh%2F116271-single-room-decoration-ideas.html&psig=AOvVaw2m10WaB4Febp--vemAcZxy&ust=1680634841345000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCYxeeyjv4CFQAAAAAdAAAAABAE ",
+        "price": 4500,
+        "description": " well ventilated room "
+         },
+      {
+        "id": 3,
+        "name": "One Bedroom",
+        "rating": 4,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.roomsketcher.com%2Ffloor-plan-gallery%2Fhouse-plans%2F1-bedroom-house-plans%2F&psig=AOvVaw3zGfoyL9pK33p84dDdO4p7&ust=1680635032845000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDUycKzjv4CFQAAAAAdAAAAABAJ",
+        "price": 10000,
+        "description": " A mordern with hot shower."
+    
+      },
+      {
+        "id": 4,
+        "name": "Two Bedroom",
+        "rating": 5,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoolhouseconcepts.com%2Ftwo-bedroom-small-house-plan%2F&psig=AOvVaw2XuSPeqN45Ach0ix3U2gwv&ust=1680635170552000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCUqoS0jv4CFQAAAAAdAAAAABAE",
+        "price": 14000,
+        "description": " A cool place with your own compound"
+      },
+      {
+        "id": 5,
+        "name": "Three Bedroom",
+        "rating": 4.7,
+        "image": "https://simplehouse.design/wp-content/uploads/2022/07/H3-IMG-1.jpg",
+        "price": 17000,
+        "description": " It has been fenced"
+      },
+      {
+        "id": 6,
+        "name": "Four Bedroom",
+        "rating": 3,
+        "image": "https://i.pinimg.com/originals/64/0a/3a/640a3a0d88afbb77aea18a6e58beb4e6.png",
+        "price": 21000,
+        "description": "A cool place away from noise."
+      },
+      {
+        "id": 7,
+        "name": "Single Room",
+        "rating": 4,
+        "image": "https://jenganami.com/wp-content/uploads/2020/11/Sq-pic-3.png",
+        "price": 4000,
+        "description": " well equiped with precious space "
+      },
+      {
+        "id": 8,
+        "name": "Three Bedroom",
+        "rating": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36SG4-7rZT-MuHpFSCJk-wNOu8v6R91mXmQ&usqp=CAU",
+        "price": 20000,
+        "description": "It has a Ample parking"
+      },
+      {
+        "id": 9,
+        "name": "Bed Sitter",
+        "rating": 4,
+        "image": "https://www.eunimarkagencies.co.ke/wp-content/uploads/2018/08/Newly-Built-Bedsitters-3.jpg",
+        "price": 7000,
+        "description": " It has a built in aerial"
+      },
+      {
+        "id": 10,
+        "name": "One Bedroom",
+        "rating": 5,
+        "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiq8FO8cxwu3NVgilhxG6NdS0ZlHKt1hDywQ&usqp=CAU",
+        "price": 110000,
+        "description": "It is located near the road"
+    
+      }  
+      
+
+    ]
+  }
